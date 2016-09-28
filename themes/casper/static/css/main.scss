@@ -1,0 +1,152 @@
+$defaultFontColor: #333;
+$backStyleFirst: #081227;
+$backStyleSecond: #111f3c;
+
+$screen-lg-min: 768px;
+$screen-md-min: 992px;
+$screen-sm-min: 1200px;
+
+$container-lg: 750px; 
+$container-md: 970px; 
+$container-sm: 1170px; 
+
+body {
+    color: $defaultFontColor;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: $screen-lg-min) {
+        width: $container-lg;
+    }
+    @media (min-width: $screen-md-min) {
+        width: $container-md;
+    }
+    @media (min-width: $screen-sm-min) {
+        width: $container-sm;
+    }
+}
+
+.main-feature {
+    text-align: center;
+    h2  {
+        font-size: 48px;
+    }
+    p  {
+        font-size: 18px;
+    }
+}
+
+.six-reasons {
+    overflow: hidden;
+    li  {
+        float: left;
+        width: 33.33%;
+        min-height: 300px;
+        text-align: center;
+        margin: 0;
+        h5  {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #505152;
+        }
+        p  {
+            font-size: 14px;
+            padding: 0 20px;
+            color: #adb4b9;
+            line-height: 2;
+        }
+    }
+}
+
+.contact {
+    overflow: hidden;
+    background-color: $backStyleFirst;
+    h2 {
+        height: 120px;
+        line-height: 120px;
+        font-size: 48px;
+        text-align: center;
+        margin: 0;
+        color: #fff;
+    }
+    .be-left {
+        width: 25%;
+        float: left;
+    }
+    .be-right {
+        width: 75%;
+        float: left;
+    }
+    .contact-phone-number  {
+        color: #fff;
+        h5  {
+            color: #fff;
+        }
+        li  {
+            color: #526589;
+        }
+    }
+    .contact-content  {
+        ul  {
+            margin-top: 20px;
+        }
+        li  {
+            width: 33.33%;
+            height: 200px;
+            float: left;
+            margin: 0;
+            >img {
+                float: left;
+            }
+        }
+        .desc {
+            padding-left: 86px;
+            h5  {
+                font-size: 20px;
+                color: #fff;
+            }
+            p  {
+                font-size: 14px;
+                padding: 0 20px 0 0;
+                color: #526589;
+            }
+        }
+    }
+}
+
+.site-footer {
+    background-color: $backStyleSecond;
+    border: 0;
+    box-shadow: 0 0 10px $backStyleSecond;
+}
+
+.main-title {
+    @mixin nowrap {
+        white-space: nowrap;
+        line-height: 1;
+    }
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    text-align: right;
+    .inner {
+        margin: 0;
+        width: 100%;
+        h1  {
+            font-size: 41px;
+            @include nowrap;
+            margin: 0;
+            border-top: 2px solid #52e3c6; 
+        }
+        h2 {
+            font-size: 24px;
+            @include nowrap;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "jiejingblog",
+  "version": "0.0.1",
+  "description": "Jie Jing Blog Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanpipy/Jiejing.git"
+  },
+  "keywords": [
+    "JieJing",
+    "Hugo",
+    "Template"
+  ],
+  "author": "JieJing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanpipy/Jiejing/issues"
+  },
+  "homepage": "https://github.com/vanpipy/Jiejing#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

@@ -1,0 +1,108 @@
+body {
+  color: #333; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+
+.main-feature {
+  text-align: center; }
+  .main-feature h2 {
+    font-size: 48px; }
+  .main-feature p {
+    font-size: 18px; }
+
+.six-reasons {
+  overflow: hidden; }
+  .six-reasons li {
+    float: left;
+    width: 33.33%;
+    min-height: 300px;
+    text-align: center;
+    margin: 0; }
+    .six-reasons li h5 {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #505152; }
+    .six-reasons li p {
+      font-size: 14px;
+      padding: 0 20px;
+      color: #adb4b9;
+      line-height: 2; }
+
+.contact {
+  overflow: hidden;
+  background-color: #081227; }
+  .contact h2 {
+    height: 120px;
+    line-height: 120px;
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    color: #fff; }
+  .contact .be-left {
+    width: 25%;
+    float: left; }
+  .contact .be-right {
+    width: 75%;
+    float: left; }
+  .contact .contact-phone-number {
+    color: #fff; }
+    .contact .contact-phone-number h5 {
+      color: #fff; }
+    .contact .contact-phone-number li {
+      color: #526589; }
+  .contact .contact-content ul {
+    margin-top: 20px; }
+  .contact .contact-content li {
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    margin: 0; }
+    .contact .contact-content li > img {
+      float: left; }
+  .contact .contact-content .desc {
+    padding-left: 86px; }
+    .contact .contact-content .desc h5 {
+      font-size: 20px;
+      color: #fff; }
+    .contact .contact-content .desc p {
+      font-size: 14px;
+      padding: 0 20px 0 0;
+      color: #526589; }
+
+.site-footer {
+  background-color: #111f3c;
+  border: 0;
+  box-shadow: 0 0 10px #111f3c; }
+
+.main-title {
+  display: block;
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  text-align: right; }
+  .main-title .inner {
+    margin: 0;
+    width: 100%; }
+    .main-title .inner h1 {
+      font-size: 41px;
+      white-space: nowrap;
+      line-height: 1;
+      margin: 0;
+      border-top: 2px solid #52e3c6; }
+    .main-title .inner h2 {
+      font-size: 24px;
+      white-space: nowrap;
+      line-height: 1; }
