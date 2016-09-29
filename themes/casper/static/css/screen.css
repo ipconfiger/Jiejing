@@ -594,6 +594,7 @@ body.nav-opened .nav {
     font-weight: 100;
     text-transform: uppercase;
     color: #fff;
+    display: none;
 }
 
 .nav-close {
