@@ -1,42 +1,42 @@
 baseurl = "http://example.com"
 
-imageurl = "images/"
-
-copyright = "All rights reserved - 2016"
+copyright = "2016 Designed By"
 disqusshortname = "vjeantet"
 languagecode = "zh-cn"
 paginate = 5
 pluralizelisttitles = false
 theme = "casper"
 title = "杰竞科技"
+
 [[menu.main]]
-identifier = "blog"
-name = "Blog"
+identifier = "Office"
+name = "Officnal"
 url = "/"
 weight = -120
+
 [[menu.main]]
 name = "Github repos"
-pre = "<h3>Follow me</h3>"
-url = "https://github.com/vjeantet"
+pre = "<h3>JieJing</h3>"
+url = "https://github.com/vanpipy/Jiejing.git"
 weight = 100
-[[menu.main]]
-name = "Twitter timeline"
-url = "https://twitter.com/vjeantet"
-weight = 101
+
 [[menu.main]]
 name = "Flipboard magazines"
 url = "https://flipboard.com/@vjeantet"
 weight = 102
+
 [[menu.main]]
-name = "Keybase (secure msg)"
+name = "Jiejing"
 pre = "<h3>Contact me</h3>"
-url = "https://Keybase.io/vjeantet"
+url = "/"
 weight = 109
+
 [params]
-author = "Valère JEANTET"
-authorlocation = "Paris, France"
-authorwebsite = "http://vjeantet.fr"
-bio = "IT software and Security Engineer, Open source enthusiast."
+author = "Jiejing"
+authorlocation = "Chengdu, China"
+authorwebsite = "http://jiejing.cn"
+bio = "IT software and Full-stack Engineer, Open source enthusiast."
+
 cover = "images/cover_polenord.png"
 descriptionTop = "移动、定位、云计算、数据采集、在线支付融合技术为工具的"
 descriptionBottom = "最新最全面的汽车配件信息服务平台"

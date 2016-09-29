@@ -267,7 +267,7 @@ p, ul, ol, dl {
 }
 
 ol, ul {
-    padding: 0;
+    padding: 0 !important;
 }
 
 ol ol, ul ul,

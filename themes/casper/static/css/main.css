@@ -93,6 +93,10 @@ body {
   bottom: 20%;
   right: 10%;
   text-align: right; }
+  @media (max-width: 768px) {
+    .main-title {
+      right: 50%;
+      margin-right: -163px; } }
   .main-title .inner {
     margin: 0;
     width: 100%; }
@@ -102,7 +106,36 @@ body {
       line-height: 1;
       margin: 0;
       border-top: 2px solid #52e3c6; }
+      @media (max-width: 768px) {
+        .main-title .inner h1 {
+          font-size: 21px; } }
     .main-title .inner h2 {
       font-size: 24px;
       white-space: nowrap;
       line-height: 1; }
+      @media (max-width: 768px) {
+        .main-title .inner h2 {
+          font-size: 11px; } }
+
+@media (max-width: 768px) {
+  .six-reasons li {
+    float: none;
+    width: 100%;
+    min-height: auto; }
+  .contact .be-left {
+    width: 100%;
+    text-align: center; }
+    .contact .be-left h2 {
+      height: 50px; }
+  .contact .be-right {
+    float: none;
+    width: 100%;
+    clear: both; }
+  .contact .contact-content li {
+    float: none;
+    width: 100%;
+    height: auto; }
+  .copyright {
+    width: 100%; }
+  .site-footer {
+    margin: 0 !important; } }

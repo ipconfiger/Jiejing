@@ -135,6 +135,10 @@ body {
     bottom: 20%;
     right: 10%;
     text-align: right;
+    @media (max-width: $screen-lg-min) {
+        right: 50%;
+        margin-right: -163px;
+    }
     .inner {
         margin: 0;
         width: 100%;
@@ -143,10 +147,53 @@ body {
             @include nowrap;
             margin: 0;
             border-top: 2px solid #52e3c6; 
+            @media (max-width: $screen-lg-min) {
+                font-size: 21px;
+            }
         }
         h2 {
             font-size: 24px;
             @include nowrap;
+            @media (max-width: $screen-lg-min) {
+                font-size: 11px;
+            }
         }
+    }
+}
+
+@media (max-width: $screen-lg-min) {
+    .six-reasons {
+        li {
+            float: none;
+            width: 100%;
+            min-height: auto;
+        }
+    }
+    .contact {
+        .be-left {
+            width: 100%;
+            text-align: center;
+            h2 {
+                height: 50px;
+            }
+        }
+        .be-right {
+            float: none;
+            width: 100%;
+            clear: both;
+        }
+        .contact-content {
+            li {
+                float: none;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .copyright {
+        width: 100%;
+    }
+    .site-footer {
+        margin: 0 !important;
     }
 }
