@@ -21,8 +21,8 @@ url = "https://github.com/vanpipy/Jiejing.git"
 weight = 100
 
 [[menu.main]]
-name = "Flipboard magazines"
-url = "https://flipboard.com/@vjeantet"
+name = "Demo Link - to anywhere you want like baidu"
+url = "https://baidu.com"
 weight = 102
 
 [[menu.main]]
