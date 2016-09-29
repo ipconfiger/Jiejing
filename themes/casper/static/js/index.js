@@ -53,4 +53,32 @@
         });
 
     };
+
+    function scrollAnimation (animationDomsArray) {
+        var self = this;
+
+        function main (argument) {
+            scrollEvent();
+        }
+
+        // array -> array
+        function getDomsPosition (doms) {
+            return [
+
+            ]
+        }
+
+        function scrollEvent () {
+            function _scrollEvent () {
+
+            }
+
+            $(document).on('scroll', _scrollEvent);
+        }
+
+        return main();
+    }
+    
+    // var scrolls = new scrollAnimation();
+
 })(jQuery);
