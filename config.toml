@@ -1,7 +1,7 @@
-baseurl = "http://example.com"
+baseurl = "http://www.qp197.com"
 
 copyright = "2016 Designed By"
-disqusshortname = "vjeantet"
+disqusshortname = "jiejing-tech"
 languagecode = "zh-cn"
 paginate = 5
 pluralizelisttitles = false
@@ -10,37 +10,20 @@ title = "杰竞科技"
 
 [[menu.main]]
 identifier = "Office"
-name = "Officnal"
+name = "杰竞科技官方网站"
 url = "/"
 weight = -120
-
-[[menu.main]]
-name = "Github repos"
-pre = "<h3>JieJing</h3>"
-url = "https://github.com/vanpipy/Jiejing.git"
-weight = 100
-
-[[menu.main]]
-name = "Demo Link - to anywhere you want like baidu"
-url = "https://baidu.com"
-weight = 102
-
-[[menu.main]]
-name = "Jiejing"
-pre = "<h3>Contact me</h3>"
-url = "/"
-weight = 109
 
 [params]
 author = "Jiejing"
 authorlocation = "Chengdu, China"
-authorwebsite = "http://jiejing.cn"
+authorwebsite = "http://www.qp197.com"
 bio = "IT software and Full-stack Engineer, Open source enthusiast."
 
 cover = "images/cover_polenord.png"
 descriptionTop = "移动、定位、云计算、数据采集、在线支付融合技术为工具的"
 descriptionBottom = "最新最全面的汽车配件信息服务平台"
-githubName = "vjeantet"
+githubName = "ipconfiger"
 googleAnalyticsUserID = "UA-79101-12"
 hideHUGOSupport = false
 logo = "images/logo.png"
